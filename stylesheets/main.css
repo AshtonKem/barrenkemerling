@@ -1,0 +1,349 @@
+@import url("http://fonts.googleapis.com/css?family=Montserrat+Alternates|Raleway");
+/* line 14, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+h1 {
+  font-family: "Montserrat Alternates";
+  font-size: 40px; }
+
+/* line 17, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+i {
+  font-family: 'Entypo';
+  font-size: 60px;
+  font-weight: normal;
+  font-style: normal; }
+  /* line 22, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+  i.anchor, i.final {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0 0 0;
+    display: block;
+    color: #141414; }
+  /* line 30, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+  i.final {
+    position: absolute;
+    bottom: 20px;
+    padding: 0; }
+
+/* line 36, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+iframe {
+  margin-top: 40px; }
+
+/* line 40, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+body {
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  background-color: #f6f6f6;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 49, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+.centered {
+  width: 980px;
+  margin: 0 auto;
+  padding: 0; }
+
+/* line 55, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+header {
+  background-color: #141414;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 10px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 2px 10px;
+  -webkit-transition: all 0.4s linear;
+  -webkit-transition-delay: translate3d(0, 0, 0);
+  -moz-transition: all 0.4s linear translate3d(0, 0, 0);
+  -o-transition: all 0.4s linear translate3d(0, 0, 0);
+  transition: all 0.4s linear translate3d(0, 0, 0); }
+  /* line 63, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+  header ul {
+    height: 100%;
+    list-style-type: none;
+    float: left;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+    /* line 71, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+    header ul li {
+      float: left;
+      width: 150px;
+      text-align: center; }
+      /* line 75, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+      header ul li a {
+        color: #f6f6f6;
+        text-decoration: none;
+        height: 50px;
+        width: 240px;
+        line-height: 55px;
+        float: left;
+        -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+        font-size: 16px; }
+      /* line 85, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+      header ul li a.logo {
+        font-family: "Montserrat Alternates";
+        font-size: 20px;
+        line-height: 50px; }
+        /* line 89, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+        header ul li a.logo:hover {
+          color: #cc5500; }
+        /* line 91, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+        header ul li a.logo.current {
+          color: #cc5500; }
+      /* line 96, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+      header ul li.current a {
+        color: #cc5500; }
+      /* line 101, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+      header ul li:hover a {
+        color: #cc5500; }
+    /* line 106, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+    header ul li.button {
+      float: right; }
+      /* line 108, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+      header ul li.button a {
+        width: 100%;
+        text-align: center;
+        color: white;
+        height: 40px;
+        line-height: 42px;
+        font-weight: normal;
+        background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7d7d7d), color-stop(70%, #707070));
+        background: -webkit-linear-gradient(#7d7d7d, #707070 70%);
+        background: -moz-linear-gradient(#7d7d7d, #707070 70%);
+        background: -o-linear-gradient(#7d7d7d, #707070 70%);
+        background: linear-gradient(#7d7d7d, #707070 70%);
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
+        border-radius: 2px;
+        -webkit-box-shadow: inset #a3a3a3 0 1px 1px;
+        -moz-box-shadow: inset #a3a3a3 0 1px 1px;
+        box-shadow: inset #a3a3a3 0 1px 1px;
+        text-shadow: #575757 0 -1px 0;
+        -webkit-transition: all 0s linear;
+        -moz-transition: all 0s linear;
+        -o-transition: all 0s linear;
+        transition: all 0s linear;
+        border: 1px solid #3d3d3d;
+        margin: 4px 0 0 0; }
+        /* line 122, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+        header ul li.button a:hover {
+          background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #848484), color-stop(70%, #787878));
+          background: -webkit-linear-gradient(#848484, #787878 70%);
+          background: -moz-linear-gradient(#848484, #787878 70%);
+          background: -o-linear-gradient(#848484, #787878 70%);
+          background: linear-gradient(#848484, #787878 70%); }
+        /* line 125, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+        header ul li.button a:active {
+          background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #707070), color-stop(70%, #575757));
+          background: -webkit-linear-gradient(#707070, #575757 70%);
+          background: -moz-linear-gradient(#707070, #575757 70%);
+          background: -o-linear-gradient(#707070, #575757 70%);
+          background: linear-gradient(#707070, #575757 70%);
+          -webkit-box-shadow: inset #3d3d3d 0 1px 1px;
+          -moz-box-shadow: inset #3d3d3d 0 1px 1px;
+          box-shadow: inset #3d3d3d 0 1px 1px; }
+
+/* line 134, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+div#banner {
+  width: 100%;
+  height: 220px;
+  padding: 60px 0 0 0;
+  margin: 0; }
+  /* line 140, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+  div#banner h1, div#banner h2 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center; }
+  /* line 146, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+  div#banner h1 {
+    margin-top: 60px; }
+
+/* line 151, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+div#rockies {
+  width: 100%;
+  height: 300px;
+  padding: 0;
+  margin: 0;
+  min-width: 960px;
+  background: url("/img/rockies.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px; }
+
+/* line 163, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+div#us .centered {
+  padding: 80px 0 0 0;
+  margin-bottom: 70px;
+  position: relative; }
+  /* line 167, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+  div#us .centered .ashton, div#us .centered .leah {
+    float: left;
+    width: 46%;
+    padding: 0 2%; }
+    /* line 171, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+    div#us .centered .ashton img, div#us .centered .leah img {
+      height: 375px;
+      width: autopx;
+      margin: 0 auto;
+      display: block; }
+    /* line 177, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+    div#us .centered .ashton h1, div#us .centered .leah h1 {
+      text-align: center; }
+  /* line 181, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+  div#us .centered img {
+    border-radius: 10px;
+    margin-top: 50px; }
+  /* line 185, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+  div#us .centered #plus {
+    position: absolute;
+    top: 423px;
+    left: 466px;
+    font-size: 60px; }
+
+/* line 194, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+div#oxford {
+  width: 100%;
+  height: 300px;
+  padding: 0;
+  margin: 0;
+  min-width: 960px;
+  background: url("/img/oxford.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px; }
+
+/* line 206, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+div#venue .centered {
+  height: 980px;
+  position: relative;
+  padding: 40px 0 0 0; }
+  /* line 210, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+  div#venue .centered h1 {
+    text-align: center; }
+
+/* line 216, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+div#hotel {
+  width: 100%;
+  height: 300px;
+  padding: 0;
+  margin: 0;
+  min-width: 960px;
+  background: url("/img/engagement.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px; }
+  /* line 225, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+  div#hotel i {
+    color: #f6f6f6; }
+
+/* line 231, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+div#reservations .centered {
+  height: 1100px;
+  position: relative;
+  padding: 40px 0 0 0; }
+  /* line 235, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+  div#reservations .centered h1 {
+    text-align: center; }
+
+/* line 241, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+div#wedding {
+  width: 100%;
+  height: 300px;
+  padding: 0;
+  margin: 0;
+  min-width: 960px;
+  background: url("/img/abe_and_woz.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px; }
+
+/* line 253, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+div#registry .centered {
+  margin-bottom: 220px;
+  position: relative;
+  padding: 40px 0 0 0; }
+  /* line 257, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+  div#registry .centered h1 {
+    text-align: center; }
+  /* line 260, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+  div#registry .centered img {
+    width: 664px;
+    height: 357px;
+    margin: 40px auto 0 auto;
+    display: block;
+    border-radius: 10px; }
+
+/* line 270, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+footer {
+  width: 100%;
+  background-color: #141414;
+  height: 50px;
+  min-width: 960px; }
+  /* line 275, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+  footer ul {
+    height: 100%;
+    list-style-type: none;
+    float: left;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+    /* line 283, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+    footer ul li {
+      float: left;
+      width: 100%; }
+      /* line 286, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+      footer ul li:first-of-type {
+        text-align: left; }
+      /* line 289, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+      footer ul li:last-of-type {
+        text-align: right; }
+      /* line 292, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+      footer ul li a {
+        color: #f6f6f6;
+        text-decoration: none;
+        text-align: center;
+        height: 50px;
+        width: 100%;
+        line-height: 55px;
+        float: left;
+        -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        transition: all 0.2s linear;
+        font-size: 16px; }
+      /* line 303, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+      footer ul li a.logo {
+        font-family: "Montserrat Alternates";
+        font-size: 30px;
+        line-height: 50px; }
+        /* line 307, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+        footer ul li a.logo:hover {
+          color: #707070; }
+        /* line 309, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+        footer ul li a.logo.current {
+          color: #707070; }
+      /* line 314, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+      footer ul li:hover a {
+        color: #707070; }
+
+/* line 322, /Users/ashtonkemerling/Documents/barrenkemerling/source/stylesheets/main.css.scss */
+.fullwidth {
+  width: 100%; }
