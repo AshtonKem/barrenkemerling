@@ -1,17 +1,12 @@
 @import "compass/css3";
-@import url("http://fonts.googleapis.com/css?family=Romanesco|Raleway");
-@font-face {
-    font-family: "Entypo";
-    src: url("/css/entypo/entypo.eot");
-    src: url("/css/entypo/entypo.eot") format('eot'), url("/css/entypo/entypo.woff") format('woff'), url("/css/entypo/entypo.ttf") format('truetype');
-}
+@import url("http://fonts.googleapis.com/css?family=Montserrat+AlternatesRaleway");
 
-$headline-font: 'Helvetica', tilting;
+$headline-font: 'Montserrat Alternates';
 $body-font: 'Raleway', sans-serif;
 $black: #141414;
 $white: #f6f6f6;
-$purple: #370B3B;
-$lilac: #7069B2;
+$primary: #EF002A;
+$secondary: #006C51;
 $sky: #47A0AB;
 $acapulco: #89B2A1;
 $brown: #362000;
@@ -52,7 +47,7 @@ body {
     @include background-size(cover);
 }
 .centered {
-    width: 960px;
+    width: 980px;
     margin: 0 auto;
     padding: 0;
 }
@@ -92,19 +87,19 @@ header {
                 font-size: 30px;
                 line-height: 50px;
                 &:hover {
-                    color: $lilac};
+                    color: $primary};
                 &.current {
-                    color: $lilac;
+                    color: $primary;
                 }
             }
             &.current {
                 a {
-                    color: $lilac;
+                    color: $primary;
                 }
             }
             &:hover {
                 a {
-                    color: $lilac;
+                    color: $primary;
                 }
             }
         }
@@ -117,19 +112,19 @@ header {
                 height: 40px;
                 line-height: 42px;
                 font-weight: normal;
-                @include background(linear-gradient(lighten($lilac, 5), $lilac 70%));
+                @include background(linear-gradient(lighten($secondary, 5), $secondary 70%));
                 @include border-radius(2px);
-                @include box-shadow(inset lighten($lilac, 20) 0 1px 1px);
-                @include text-shadow(darken($lilac, 10) 0 -1px 0);
+                @include box-shadow(inset lighten($secondary, 20) 0 1px 1px);
+                @include text-shadow(darken($secondary, 10) 0 -1px 0);
                 @include transition(all 0s linear);
-                border: 1px solid darken($lilac, 20);
+                border: 1px solid darken($secondary, 20);
                 margin: 4px 0 0 0;
                 &:hover {
-                    @include background(linear-gradient(lighten($lilac, 8), lighten($lilac, 3) 70%));
+                    @include background(linear-gradient(lighten($secondary, 8), lighten($secondary, 3) 70%));
                 };
                 &:active {
-                    @include background(linear-gradient($lilac, darken($lilac, 10) 70%));
-                    @include box-shadow(inset darken($lilac, 20) 0 1px 1px);
+                    @include background(linear-gradient($secondary, darken($secondary, 10) 70%));
+                    @include box-shadow(inset darken($secondary, 20) 0 1px 1px);
                 };
             }
         }
@@ -256,7 +251,7 @@ div#wedding {
 
 div#registry {
     .centered {
-        height: 600px;
+        margin-bottom: 220px;
         position: relative;
         padding: 40px 0 0 0;
         h1 {
@@ -309,14 +304,14 @@ footer {
                 font-size: 30px;
                 line-height: 50px;
                 &:hover {
-                    color: $lilac};
+                    color: $secondary};
                 &.current {
-                    color: $lilac;
+                    color: $secondary;
                 }
             }
             &:hover {
                 a {
-                    color: $lilac;
+                    color: $secondary;
                 }
             }
         }
