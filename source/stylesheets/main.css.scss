@@ -39,7 +39,7 @@ header {
         &:hover {color: $lilac};
         &.current {color: $lilac;}
       }
-      &.current { background: url("/img/current_indicator.png") top left no-repeat;
+      &.current {
         a {color: $lilac;}
       }
       &:hover {
