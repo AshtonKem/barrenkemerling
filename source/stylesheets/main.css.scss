@@ -282,7 +282,7 @@ footer {
         width: 100%;
         li {
             float: left;
-            width: 50%;
+            width: 100%;
             &:first-of-type {
                 text-align: left;
             }
@@ -292,6 +292,7 @@ footer {
             a {
                 color: $white;
                 text-decoration: none;
+                text-align: center;
                 height: 50px;
                 width: 100%;
                 line-height: 55px;
@@ -316,4 +317,8 @@ footer {
             }
         }
     }
+}
+
+.fullwidth {
+    width: 100%;
 }
