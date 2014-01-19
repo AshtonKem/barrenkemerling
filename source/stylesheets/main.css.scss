@@ -5,7 +5,7 @@
   src: url("/css/entypo/entypo.eot");
   src: url("/css/entypo/entypo.eot") format('eot'), url("/css/entypo/entypo.woff") format('woff'), url("/css/entypo/entypo.ttf") format('truetype'); }
 
-$cursive-font: 'Helvetica', tilting;
+$headline-font: 'Helvetica', tilting;
 $body-font: 'Raleway', sans-serif;
 $black: #141414;
 $white: #f6f6f6;
@@ -15,7 +15,7 @@ $sky: #47A0AB;
 $acapulco: #89B2A1;
 $brown: #362000;
 
-h1 {font-family: $cursive-font; font-size: 40px;}
+h1 {font-family: $headline-font; font-size: 40px;}
 i {font-family: 'Entypo'; font-size: 60px; font-weight: normal; font-style: normal;
   &.anchor, &.final {width: 100%; text-align: center; margin: 0; padding: 20px 0 0 0; display: block; color: $black;}
   &.final {position: absolute; bottom: 20px; padding: 0;}
@@ -34,8 +34,8 @@ header {
   @include transition(all 0.4s linear translate3d(0, 0, 0));
   ul { height: 100%; list-style-type: none; float: left; clear: both; margin: 0; padding: 0; width: 100%;
     li { float: left; width: 150px; text-align: center;
-      a { color: $white; text-decoration: none; height: 50px; width: 150px; line-height: 55px; float: left; @include transition(all 0.2s linear); font-size: 16px;}
-      a.logo {font-family: $cursive-font; font-size: 30px; line-height: 50px;
+      a { color: $white; text-decoration: none; height: 50px; width: 240px; mline-height: 55px; float: left; @include transition(all 0.2s linear); font-size: 16px;}
+      a.logo {font-family: $headline-font; font-size: 30px; line-height: 50px;
         &:hover {color: $lilac};
         &.current {color: $lilac;}
       }
@@ -84,7 +84,7 @@ div#rockies {
 div#us {
   .centered { padding: 80px 0 0 0; height: 2050px; position: relative;
     .ashton, .leah {float: left; width: 46%; padding: 0 2%;
-      img {height: 375px; width: 400px; margin: 0 auto; display: block;}
+      img {height: 375px; width: autopx; margin: 0 auto; display: block;}
       h1 {text-align: center;}
     }
     img {border-radius: 10px; margin-top: 50px;}
@@ -140,7 +140,7 @@ footer {
       &:first-of-type {text-align: left;}
       &:last-of-type {text-align: right;}
       a { color: $white; text-decoration: none; height: 50px; width: 100%; line-height: 55px; float: left; @include transition(all 0.2s linear); font-size: 16px;}
-      a.logo {font-family: $cursive-font; font-size: 30px; line-height: 50px;
+      a.logo {font-family: $headline-font; font-size: 30px; line-height: 50px;
         &:hover {color: $lilac};
         &.current {color: $lilac;}
       }
