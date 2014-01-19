@@ -178,7 +178,7 @@ div#rockies {
   padding: 0;
   margin: 0;
   min-width: 960px;
-  background: url("/img/rockies.jpg") no-repeat center center fixed;
+  background: url("img/rockies.jpg") no-repeat center center fixed;
   background-size: cover;
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px;
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px;
@@ -221,7 +221,7 @@ div#oxford {
   padding: 0;
   margin: 0;
   min-width: 960px;
-  background: url("/img/oxford.jpg") no-repeat center center fixed;
+  background: url("img/oxford.jpg") no-repeat center center fixed;
   background-size: cover;
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px;
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px;
@@ -243,7 +243,7 @@ div#hotel {
   padding: 0;
   margin: 0;
   min-width: 960px;
-  background: url("/img/engagement.jpg") no-repeat center center fixed;
+  background: url("img/engagement.jpg") no-repeat center center fixed;
   background-size: cover;
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px;
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px;
@@ -268,7 +268,7 @@ div#wedding {
   padding: 0;
   margin: 0;
   min-width: 960px;
-  background: url("/img/abe_and_woz.jpg") no-repeat center center fixed;
+  background: url("img/abe_and_woz.jpg") no-repeat center center fixed;
   background-size: cover;
   -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px;
   -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 2px 2px;
