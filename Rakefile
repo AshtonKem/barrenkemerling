@@ -4,7 +4,7 @@ task :deploy do
   system "bundle exec middleman build"
   puts "## Deploying branch to Github Pages "
   cp_r ".nojekyll", "build/.nojekyll"
-  cp_r "CNAME", "build/CNAME"
+  cp_r "source/CNAME", "build/CNAME"
   cd "build" do
     system "git add ."
     system "git add -u"
